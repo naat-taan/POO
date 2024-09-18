@@ -19,9 +19,9 @@ public class Bingo extends Jogo {
 
     public void sortearNumero() {
         Random random = new Random();
-        int numero = random.nextInt(75) + 1;
+        int numero = random.nextInt(50) + 1;
         while (numerosSorteados.contains(numero)) {
-            numero = random.nextInt(75) + 1;
+            numero = random.nextInt(50) + 1;
         }
         numerosSorteados.add(numero);
         System.out.println("Número sorteado: " + numero);
