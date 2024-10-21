@@ -15,7 +15,6 @@ public class Main {
             bingo.adicionarJogador(cartela);
             cartela.imprimirCartela();
         }
-        System.out.println("aaa");
         bingo.jogar(scanner);
     }
 }
